@@ -6,7 +6,7 @@ import Background from "./assets/background.svg"
 import { GestureDetector, Gesture } from 'react-native-gesture-handler';
 import { PanGestureHandler } from 'react-native-gesture-handler';
 import { PanResponder } from 'react-native';
-export default function App() {
+export default function CurvedAppBar() {
 
   const [xy, setXY] = useState({x: 0, y: 0})
   const [layout, setLayout] = useState({height: 0, width: 0})
